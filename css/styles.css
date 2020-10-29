@@ -169,6 +169,17 @@ h2 {
   line-height: 1.5;
 }
 
+/* Footer Section  */
+
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px; /* top-bottom left-right */
+}
 
 /* Media query for title section, to make it more responisve or mobile friendly */
 
