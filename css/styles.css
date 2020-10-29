@@ -152,3 +152,17 @@ h2 {
 .pricing-column {
   padding: 3% 2%;
 }
+
+/* Media query for title section, to make it more responisve or mobile friendly */
+
+@media (max-width: 1028px) {
+  /*when width is <= 1028px then following changes will be applied */
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static; /*  */
+    transform: rotate(0); /* original vertical image */
+  }
+}
