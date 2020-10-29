@@ -13,10 +13,15 @@
   <link rel="stylesheet" href="css/styles.css">
 
   <!-- Embedding google fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300;400&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu:wght@300;400;700&display=swap"
     rel="stylesheet">
 
-  <!--JQueries-->
+  <!-- Fontawesome free cdn for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+  <!--Bootstrap JQueries-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
@@ -36,7 +41,7 @@
     <div class="container-fluid">
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">Tindog</a>
+        <a class="navbar-brand" href="">tindog</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -62,10 +67,12 @@
       <div class="row">
         <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button">Download</button>
-          <button type="button">Download</button>
+          <button type="button" class="btn  btn-lg btn-dark download-button"><em
+              class="fab fa-apple"></em>Download</button>
+          <button type="button" class="btn  btn-lg btn-outline-light download-button"><em
+              class="fab fa-google-play"></em>Download</button>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 title-image">
           <img src="images/iphone6.png" alt="iphone-mockup">
         </div>
       </div>

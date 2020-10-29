@@ -1,5 +1,10 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 #title {
   background-color: #ff4c68;
+  color: #fff;
 }
 
 .container-fluid {
@@ -9,5 +14,51 @@
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
+  font-weight: 900;
   line-height: 1.5;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem; /* now all text aligned perfectly */
+  /* top right-left bottom */
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.nav-item {
+  /* So that there is space between items , we can on individually easily */
+  padding: 0 18px;
+}
+
+/* going much deeper to change the properties */
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download button */
+/* its better to add your custom classes to change the default bootstrap styling */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* adding space between fontawesome icons */
+em {
+  margin-right: 5px;
+}
+
+/* title image */
+
+.title-image {
+  /* this will 60% width in desktop and in ipad as well */
+  width: 60%;
+  /* rotating 25 degree clockwise */
+  transform: rotate(25deg);
 }
