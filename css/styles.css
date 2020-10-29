@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%; /* top-bottom left-right*/
+  padding: 3% 15% 7%; /* top left-right bottom */
 }
 
 h1 {
@@ -61,6 +61,8 @@ h1 {
   width: 60%;
   /* rotating 25 degree clockwise */
   transform: rotate(25deg);
+  position: absolute; /* to take it out of the flow and send it behind using z-index of features section */
+  right: 30%;
 }
 
 /* Features Section */
@@ -86,6 +88,13 @@ p {
 #features {
   padding: 7% 15%;
   /* top-bottom left-right */
+  font-size: 2rem;
+  position: relative;
+  /* z-index: 1; don't need because elements after in the flow sits on another */
+  z-index: 1;
+
+  /* set the color so that it stays there when sending image behind */
+  background-color: #fff; /* to remove transparency */
 }
 
 .feature-box {
@@ -131,7 +140,6 @@ h2 {
   width: 15%;
   margin: 20px 20px 50px; /* top bottom left-right */
 }
-
 
 /* Pricing Section */
 
