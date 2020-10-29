@@ -50,7 +50,7 @@ h1 {
 }
 
 /* adding space between fontawesome icons */
-em {
+.download-icon {
   margin-right: 5px;
 }
 
@@ -61,4 +61,34 @@ em {
   width: 60%;
   /* rotating 25 degree clockwise */
   transform: rotate(25deg);
+}
+
+/* Features Section */
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 900; /* Black and Bold*/
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#features {
+  padding: 7% 15%;
+  /* top-bottom left-right */
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%; /* to all four sides */
 }
