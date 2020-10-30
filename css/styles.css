@@ -39,6 +39,17 @@ p {
   padding: 7% 15%;
 }
 
+/* Sections  */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+white-section {
+  background-color: #fff;
+}
+
 /* Navigation bar */
 
 .navbar {
@@ -65,17 +76,12 @@ p {
 
 /* Title Section */
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
-
 #title .container-fluid {
   /* this will be applied to container fluid that is conainted title section only*/
   /* since this is more specific selector so this will override general container
   fluid properties */
   padding: 3% 15% 7%; /* top left-right bottom */
+  text-align: left;
 }
 
 /* Download button */
@@ -132,6 +138,10 @@ p {
 
 /* Testimonail Sections */
 
+#testimonials {
+  background-color: #ef8172;
+}
+
 .testimonial-image {
   width: 20%;
   border-radius: 100%; /* fully round radius*/
@@ -143,16 +153,10 @@ p {
   line-height: 1.5;
 }
 
-#testimonials {
-  background-color: #ef8172;
-  color: #fff;
-}
-
 /* Press Section */
 
 #press {
   background-color: #ef8172;
-
   padding-bottom: 3%;
 }
 
@@ -165,7 +169,6 @@ p {
 
 #pricing {
   padding: 150px;
-
   font-size: 2rem;
 }
 
@@ -179,17 +182,10 @@ p {
 }
 
 /* CTA Section */
-
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-}
+/* allready styled with a class colored-section */
 
 /* Footer Section  */
-
-#footer {
-  background-color: #fff;
-}
+/* allready styled with a class white-section */
 
 .social-icon {
   margin: 20px 10px; /* top-bottom left-right */
