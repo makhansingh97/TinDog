@@ -1,21 +1,42 @@
+/* Put all elements selectors together */
+
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%; /* top left-right bottom */
+p {
+  color: #8f8f8f;
 }
 
-h1 {
+/* Heading Section */
+.big-heading {
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   font-weight: 900;
   line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  /* padding: 3% 15% 7%; top left-right bottom */
+  padding: 7% 15%;
 }
 
 /* Navigation bar */
@@ -40,6 +61,21 @@ h1 {
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  /* this will be applied to container fluid that is conainted title section only*/
+  /* since this is more specific selector so this will override general container
+  fluid properties */
+  padding: 3% 15% 7%; /* top left-right bottom */
 }
 
 /* Download button */
@@ -67,15 +103,6 @@ h1 {
 
 /* Features Section */
 
-h3 {
-  font-family: "Montserrat";
-  font-weight: 900; /* Black and Bold*/
-}
-
-p {
-  color: #8f8f8f;
-}
-
 .icon {
   color: #ef8172;
   margin-bottom: 1rem;
@@ -85,9 +112,11 @@ p {
   color: #ff4c68;
 }
 
+.feature-title {
+  line-height: 1.5rem;
+}
+
 #features {
-  padding: 7% 15%;
-  /* top-bottom left-right */
   font-size: 2rem;
   position: relative;
   /* z-index: 1; don't need because elements after in the flow sits on another */
@@ -98,18 +127,10 @@ p {
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%; /* to all four sides */
 }
 
 /* Testimonail Sections */
-
-h2 {
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
 
 .testimonial-image {
   width: 20%;
@@ -117,14 +138,13 @@ h2 {
   margin: 20px; /* all four sides */
 }
 
-.carousal-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 #testimonials {
   background-color: #ef8172;
-  padding: 7% 15%; /* top-bottom left-right */
-  text-align: center;
   color: #fff;
 }
 
@@ -132,7 +152,7 @@ h2 {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
+
   padding-bottom: 3%;
 }
 
@@ -145,8 +165,13 @@ h2 {
 
 #pricing {
   padding: 150px;
-  text-align: center;
+
   font-size: 2rem;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5rem;
 }
 
 .pricing-column {
@@ -158,23 +183,12 @@ h2 {
 #cta {
   background-color: #ff4c68;
   color: #fff;
-  padding: 7% 15%;
-  text-align: center;
-}
-
-.cta-heading {
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 /* Footer Section  */
 
 #footer {
   background-color: #fff;
-  padding: 7% 15%;
-  text-align: center;
 }
 
 .social-icon {
